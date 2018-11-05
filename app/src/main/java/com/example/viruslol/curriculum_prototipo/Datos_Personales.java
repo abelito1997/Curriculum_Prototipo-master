@@ -67,6 +67,7 @@ public class Datos_Personales extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_datos__personales, container, false);
     }
+    
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {

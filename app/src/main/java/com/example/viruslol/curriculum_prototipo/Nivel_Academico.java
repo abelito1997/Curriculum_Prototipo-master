@@ -73,6 +73,7 @@ public class Nivel_Academico extends Fragment {
             mListener.onFragmentInteraction(uri);
         }
     }
+    
 
     @Override
     public void onAttach(Context context) {

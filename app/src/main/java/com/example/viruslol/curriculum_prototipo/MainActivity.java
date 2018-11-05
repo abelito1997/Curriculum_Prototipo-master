@@ -127,8 +127,8 @@ public class MainActivity extends AppCompatActivity
             FragmentTransaction = true;
 
         } else if (id == R.id.nav_manage) {
-           // fragment = new Cursos();
-            //FragmentTransaction = true;
+            fragment = new Cursos();
+            FragmentTransaction = true;
 
         } else if (id == R.id.nav_share) {
 

@@ -60,12 +60,11 @@ public class Nivel_Academico extends Fragment {
         }
     }
 
-   // @Override
-    //public View onCreateView(LayoutInflater inflater, ViewGroup container,
-      //                       Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-       // return inflater.inflate(R.layout.fragment_nivel__academico, container, false);
-    //}
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+   Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_nivel__academico, container, false);
+    }
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
@@ -73,7 +72,7 @@ public class Nivel_Academico extends Fragment {
             mListener.onFragmentInteraction(uri);
         }
     }
-    
+
 
     @Override
     public void onAttach(Context context) {

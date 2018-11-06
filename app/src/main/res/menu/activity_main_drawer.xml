@@ -21,19 +21,11 @@
             android:id="@+id/nav_manage"
             android:icon="?android:attr/actionModePasteDrawable"
             android:title="Cursos" />
-    </group>
 
-    <item android:title="Experiencia y Conocimientos">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="?android:attr/actionModePasteDrawable"
-                android:title="Conocimientos" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="?android:attr/actionModePasteDrawable"
-                android:title="Experiencia Laboral" />
-        </menu>
-    </item>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="?android:attr/actionModePasteDrawable"
+            android:title="Conocimientos" />
+    </group>
 
 </menu>

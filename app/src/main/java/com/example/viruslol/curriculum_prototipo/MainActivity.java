@@ -139,8 +139,6 @@ public class MainActivity extends AppCompatActivity
             FragmentTransaction = true;
 
 
-        } else if (id == R.id.nav_send) {
-
         }
 
         if (FragmentTransaction){

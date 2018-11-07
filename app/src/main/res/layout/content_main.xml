@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/contenedor"
-    android:background="@mipmap/color"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/color"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.viruslol.curriculum_prototipo.MainActivity"
     tools:showIn="@layout/app_bar_main">
@@ -13,19 +13,28 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="207dp"
-        android:layout_height="201dp"
+        android:layout_width="300dp"
+        android:layout_height="230dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="452dp"
+        android:layout_marginTop="412dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/curri1"
+        app:srcCompat="@drawable/carpeta"
+        tools:ignore="VectorDrawableCompat" />
 
-        />
-
-
-
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="171dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="476dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cur"
+        tools:ignore="VectorDrawableCompat" />
 </android.support.constraint.ConstraintLayout>

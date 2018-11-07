@@ -36,7 +36,7 @@
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.028"
+                app:layout_constraintHorizontal_bias="0.142"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -44,8 +44,8 @@
                 android:id="@+id/textView7"
                 android:layout_width="178dp"
                 android:layout_height="21dp"
-                android:layout_marginStart="48dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
                 android:text="Certificados Obtenidos:"
                 android:textColor="@android:color/background_dark"
                 android:textSize="16sp"
@@ -58,13 +58,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="12dp"
                 android:layout_marginEnd="8dp"
                 android:text="• GET-CONNECTED"
                 android:textColor="@android:color/background_dark"
                 android:textSize="13sp"
                 app:layout_constraintEnd_toEndOf="@+id/textView7"
-                app:layout_constraintHorizontal_bias="0.408"
+                app:layout_constraintHorizontal_bias="0.613"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -72,7 +72,7 @@
                 android:id="@+id/textView9"
                 android:layout_width="wrap_content"
                 android:layout_height="15dp"
-                android:layout_marginStart="48dp"
+                android:layout_marginStart="100dp"
                 android:layout_marginTop="12dp"
                 android:text="• INTERNET DE LAS COSAS"
                 android:textColor="@android:color/background_dark"
@@ -82,17 +82,17 @@
 
             <TextView
                 android:id="@+id/textView10"
-                android:layout_width="359dp"
+                android:layout_width="331dp"
                 android:layout_height="41dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="36dp"
                 android:layout_marginEnd="8dp"
                 android:text="Ensamblaje y Manteniemitos de Equipos informaticos"
                 android:textColor="@android:color/background_dark"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -100,8 +100,8 @@
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="48dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="8dp"
                 android:text="• Tecnico en Informatica "
                 android:textColor="@android:color/background_dark"
                 android:textSize="13sp"
@@ -112,12 +112,55 @@
                 android:id="@+id/textView13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="48dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="12dp"
                 android:text="Certificados Obtenidos:"
                 android:textColor="@android:color/background_dark"
                 android:textSize="16sp"
                 android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="27dp"
+                android:layout_height="29dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/est"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="30dp"
+                android:layout_height="33dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="132dp"
+                android:src="@drawable/conf"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/cert"
+                app:layout_constraintEnd_toStartOf="@+id/textView7"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="26dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/cert"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView10" />
 

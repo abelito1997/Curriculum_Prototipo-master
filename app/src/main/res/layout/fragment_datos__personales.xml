@@ -49,11 +49,11 @@
 
                 <TextView
                     android:id="@+id/textView36"
-                    android:layout_width="163dp"
-                    android:layout_height="28dp"
+                    android:layout_width="88dp"
+                    android:layout_height="27dp"
                     android:layout_marginStart="44dp"
                     android:layout_marginTop="8dp"
-                    android:text="ESTADO CIVIL: Soltero"
+                    android:text="ESTADO CIVIL:"
                     android:textColor="@android:color/background_dark"
                     android:textSize="12sp"
                     app:layout_constraintStart_toStartOf="parent"
@@ -99,7 +99,7 @@
                     android:id="@+id/textView40"
                     android:layout_width="308dp"
                     android:layout_height="23dp"
-                    android:layout_marginStart="48dp"
+                    android:layout_marginStart="46dp"
                     android:layout_marginTop="24dp"
                     android:text="FECHA NACIMIENTO: Guayaquil,24 de Octubre del 1997"
                     android:textColor="@android:color/background_dark"
@@ -110,9 +110,9 @@
                 <TextView
                     android:id="@+id/textView44"
                     android:layout_width="193dp"
-                    android:layout_height="21dp"
+                    android:layout_height="17dp"
                     android:layout_marginStart="44dp"
-                    android:layout_marginTop="12dp"
+                    android:layout_marginTop="44dp"
                     android:text="NACIONALIDAD: Ecuatoriano"
                     android:textColor="@android:color/background_dark"
                     android:textSize="12sp"
@@ -135,7 +135,7 @@
                     android:layout_width="240dp"
                     android:layout_height="21dp"
                     android:layout_marginStart="44dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="12dp"
                     android:text="NOMBRE MATERNO: Virginia Guerra Rizzo"
                     android:textColor="@android:color/background_dark"
                     android:textSize="12sp"
@@ -147,7 +147,7 @@
                     android:layout_width="283dp"
                     android:layout_height="26dp"
                     android:layout_marginStart="44dp"
-                    android:layout_marginTop="52dp"
+                    android:layout_marginTop="40dp"
                     android:text="NOMBRE PATERNO: Abel arturo Balarezo Rumbea"
                     android:textColor="@android:color/background_dark"
                     android:textSize="12sp"
@@ -156,14 +156,17 @@
 
                 <TextView
                     android:id="@+id/textView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="92dp"
+                    android:layout_height="17dp"
                     android:layout_marginStart="44dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="19dp"
                     android:text="EDAD: 21 Años"
                     android:textColor="@android:color/background_dark"
+                    app:layout_constraintBottom_toTopOf="@+id/textView66"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView44" />
+                    app:layout_constraintTop_toBottomOf="@+id/textView44"
+                    app:layout_constraintVertical_bias="0.0" />
 
                 <ImageView
                     android:id="@+id/imageView12"
@@ -230,7 +233,7 @@
                     android:layout_width="24dp"
                     android:layout_height="30dp"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="7dp"
                     android:src="@drawable/cedula"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView20" />
@@ -240,7 +243,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="40dp"
                     android:src="@drawable/fecha"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView21" />
@@ -250,7 +253,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="8dp"
                     android:src="@drawable/cedula"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView22" />
@@ -260,7 +263,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="12dp"
+                    android:layout_marginTop="4dp"
                     android:src="@drawable/person"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView23" />
@@ -270,10 +273,47 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="12dp"
                     android:src="@drawable/person"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="72dp"
+                    android:text="Soltero"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Casado"
+                    app:layout_constraintStart_toEndOf="@+id/checkBox"
+                    app:layout_constraintTop_toTopOf="@+id/checkBox" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Divorciado"
+                    app:layout_constraintStart_toEndOf="@+id/checkBox2"
+                    app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="29dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/load"
+                    app:layout_constraintBottom_toBottomOf="@+id/image_p"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.91"
+                    app:layout_constraintStart_toEndOf="@+id/textView39" />
 
 
             </android.support.constraint.ConstraintLayout>
